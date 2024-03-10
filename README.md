@@ -11,8 +11,23 @@ Development of a machine-independent espresso timer with a round display driven 
  * 7 wire cable
 
 ## Connections:
+GC9A01 to ESP8266 NodeMCU V3
+* RST ==> Not connected
+* CS ==> D8
+* DC ==> D3
+* SDA/DIN ==> D7
+* SCL/CLK ==> D5
+* GND ==> GND
+* VCC ==> 3V3
 
-Scheme of connections
+GC9A01 to ESP8266 Adafruit Huzzah
+* RST ==> Not connected
+* CS ==> 15
+* DC ==> 2
+* SDA/DIN ==> 4
+* SCL/CLK ==> 5
+* GND ==> GND
+* VCC ==> 3V3
 
 ## Setup steps:
 1. Open Arduino IDE
