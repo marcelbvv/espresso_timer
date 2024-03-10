@@ -1,5 +1,5 @@
 # Espresso_timer
-Development of a machine independent espresso timer with a round display driven by a ESP8266 or ESP32 microcontroller. 
+Development of a machine-independent espresso timer with a round display driven by a ESP8266 or ESP32 microcontroller. 
 
 
 ## Components:
