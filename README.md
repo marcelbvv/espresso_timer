@@ -20,15 +20,6 @@ GC9A01 to ESP8266 NodeMCU V3
 * GND ==> GND
 * VCC ==> 3V3
 
-GC9A01 to ESP8266 Adafruit Huzzah
-* RST ==> Not connected
-* CS ==> 15
-* DC ==> 2
-* SDA/DIN ==> 4
-* SCL/CLK ==> 5
-* GND ==> GND
-* VCC ==> 3V3
-
 ## Setup steps:
 1. Open Arduino IDE
 2. Configure the board
