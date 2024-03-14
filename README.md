@@ -20,10 +20,14 @@ GC9A01 to ESP8266 NodeMCU V3
 * GND ==> GND
 * VCC ==> 3V3
 
+Reed Sensor to ESP8266 NodeMCU V3
+* Lead1 ==> 3V3
+* Lead2 ==> A0
+
 ## Setup steps:
 1. Open Arduino IDE
 2. Configure the board
-3. Upload sketch
+3. Upload SensorTimer.ino file
 
 ## Installation in machine:
 1. Open espresso machine
