@@ -36,8 +36,8 @@ MAX6675 probe to ESP8266
 * SO ==> D7
 
 SSR40 to ESP8266
-* + ==> D1
-* - ==> GND
+* \+ ==> D1
+* \- ==> GND
 
 KY-040 to ESP8266
 
