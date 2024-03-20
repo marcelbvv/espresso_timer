@@ -53,3 +53,7 @@ KY-040 to ESP8266
 2. Locate water pump
 3. Attach Reed sensor to pump
 4. Route screen cable to desired position
+
+## Notes:
+- Save set temperature value to EEPROM [Arduino Forum](https://forum.arduino.cc/t/how-to-store-data-on-nodemcu-esp8266/566090)
+- Video on use of PID [Youtube video](https://www.youtube.com/watch?v=crw0Hcc67RY&t=267s)
