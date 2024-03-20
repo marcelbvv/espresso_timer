@@ -6,7 +6,7 @@ Development of a machine-independent espresso timer with a round display driven 
  * 1.28" TFT screen (GC9A01)
  * ESP32 or ESP8266
  * 220V to 3.3V converter
- * Magnetic sensor
+ * Reed Sensor
  * 3D printed parts
  * 7 wire cable
  * K-type temperature probe
@@ -51,5 +51,5 @@ KY-040 to ESP8266
 ## Installation in machine:
 1. Open espresso machine
 2. Locate water pump
-3. Attach magnetic sensor to pump
+3. Attach Reed sensor to pump
 4. Route screen cable to desired position
