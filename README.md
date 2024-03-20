@@ -1,4 +1,4 @@
-# Espresso_timer
+# Espresso timer and PID
 Development of a machine-independent espresso timer with a round display driven by a ESP8266 or ESP32 microcontroller. 
 
 
@@ -9,6 +9,10 @@ Development of a machine-independent espresso timer with a round display driven 
  * Magnetic sensor
  * 3D printed parts
  * 7 wire cable
+ * K-type temperature probe
+ * MAX6675 Amplifier
+ * SSR40-DA
+ * KY-040
 
 ## Connections:
 GC9A01 to ESP8266 NodeMCU V3
@@ -23,6 +27,21 @@ GC9A01 to ESP8266 NodeMCU V3
 Reed Sensor to ESP8266 NodeMCU V3
 * Lead1 ==> 3V3
 * Lead2 ==> A0
+
+MAX6675 probe to ESP8266
+* VCC ==> 3V3
+* GND ==> GND
+* CLK ==> D5
+* CS ==> D4
+* SO ==> D7
+
+SSR40 to ESP8266
+* + ==> D1
+* - ==> GND
+
+KY-040 to ESP8266
+
+
 
 ## Setup steps:
 1. Open Arduino IDE
