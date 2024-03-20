@@ -1,6 +1,6 @@
 # Espresso timer and PID
 Development of a machine-independent espresso timer with a round display driven by a ESP8266 or ESP32 microcontroller. 
-
+This can be used as a timer only but an additional feature is a PID.
 
 ## Components:
  * 1.28" TFT screen (GC9A01)
