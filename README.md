@@ -40,7 +40,11 @@ SSR40 to ESP8266
 * \- ==> GND
 
 KY-040 to ESP8266
-
+* CLK ==> D5
+* DT ==> D7
+* SW ==> D0
+* \+ ==> 3V3
+* GND ==> GND
 
 
 ## Setup steps:
